@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React from 'react'
 import ReacDom from 'react-dom';
 
 
-class Sub extends Component {
+class Sub extends React.Component {
   render() {
     return (
       <div>
@@ -13,7 +13,7 @@ class Sub extends Component {
 }
 
 
-class Root extends Component {
+class Root extends React.Component {
   render() {
     return (
       <div>
